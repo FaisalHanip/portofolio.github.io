@@ -1,0 +1,16 @@
+.footer {
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    bottom: 0;
+    background-color:rgb(55, 16, 139);
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .content{
+    margin-bottom: 35px;
+  } 
