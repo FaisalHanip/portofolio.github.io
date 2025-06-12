@@ -12,10 +12,17 @@
     font-size: medium;
     padding: 10px;
     font-size: 12px;
-  }
+}
+
+.download-container{
+  text-align: center;
+}
+
+
+
 
   .content{
-    margin-bottom: 35px;
+    margin-bottom: 50px;
   } 
 
   .greeting {
