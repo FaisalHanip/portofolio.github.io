@@ -42,13 +42,15 @@
     .carousel-caption {
       background-color: rgba(0, 0, 0, 0.4);
       border-radius: 10px;
-      list-style: none;
+      height: 150px;
+      box-sizing:inherit;
+      overflow-y: auto;
       /* text-align: left; */
       padding: 0;
       margin: 0;
     }
     .li{
-      padding-left: 10px;
+      padding-left:0;
       text-align: left;
     }
 
@@ -66,7 +68,7 @@
   <div class="greeting" id="greeting">Welcome</div>
 
   <div class="container content">
-    <h1 class="text-center mb-5">My Portofolio</h1>
+    <h1 class="text-center mb-5">test</h1>
 
     <!-- Carousel -->
     <div id="projectCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
@@ -75,12 +77,14 @@
           <img src="https://images.unsplash.com/photo-1508780709619-79562169bc64?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="Proyek 1">
           <div class="carousel-caption">
             <h5>Quality Assurance</h5>
-            <p>Deskripsi singkat pengalaman kerja dan proyek yang dikerjakan.</p>          
-            <li class="li">- Develop and execute detailed test plans, test cases, and test Scenarios</li>
-            <li class="li">- Ensure quality of results through various types of testing (functional, regression, integration, performance, security, etc.)</li>
-            <li class="li">- Analyze test results and provide actionable insights for product improvement</li>
-            <li class="li">- Collaborate with developers, project managers, and UI/UX teams to understand the Project and User requirements</li>
-            <li class="li">- Keep documentation related to the testing process</li>       
+            <p>Deskripsi singkat pengalaman kerja dan proyek yang dikerjakan.</p> 
+            <ul>       
+            <li class="li">Develop and execute detailed test plans, test cases, and test Scenarios</li>
+            <li class="li">Ensure quality of results through various types of testing (functional, regression, integration, performance, security, etc.)</li>
+            <li class="li">Analyze test results and provide actionable insights for product improvement</li>
+            <li class="li">Collaborate with developers, project managers, and UI/UX teams to understand the Project and User requirements</li>
+            <li class="li">Keep documentation related to the testing process</li>  
+            </ul>     
           </div>
         </div>
         <div class="carousel-item">
@@ -129,11 +133,13 @@
         <div class="tab-content section-content">
           <div class="tab-pane fade show active" id="personal">
             <h4>Personal Details</h4>
+            <ul>
             <li>Nama                  : Faisal Hanip</li>
             <li>Tempat, Tanggal lahir : Sinonoan, 31 Agustus 1989</li>
-            <li>Alamat                : Jl. Lenteng Agung, Kec. Jagakarsa Jakarta selatan</li>
+            <li>Alamat                : Lenteng Agung - Jakarta selatan</li>
             <li>No. Hp                : 081267088355</li>
             <li>Email                 : faisalhanip123@gmail.com</li>
+            </ul>
           </div>
           <div class="tab-pane fade" id="about">
             <h4>Summary</h4>
